@@ -5,6 +5,7 @@
 Implementiere jeweils eine Klasse
 - ```Student```
 - ```Teacher```
+
 sowie ein dazugehöriges Testprogramm
 
 Die beiden Klassen sollen folgende Punkte erfüllen:
