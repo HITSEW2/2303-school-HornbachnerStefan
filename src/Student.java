@@ -42,6 +42,25 @@ public class Student {
 
 
     //Methoden
+    public boolean hasPassed(){
+        return grade <= 4.0;
+    }
 
+
+
+
+    //ToString
+    @Override
+    public String toString(){
+        String str;
+
+        str = "Rectangle\n";
+        str += "\t Name: " + name + "\n";
+        str += "\t Geburtsdatum: " + birthday + "\n";
+        str += "\t Note: " + grade + "\n";
+        str += "\t Klasse: " + schoolClass + "\n";
+
+        return str;
+    }
 
 }
